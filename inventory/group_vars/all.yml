@@ -6,7 +6,7 @@ pip_install_packages:
   - jmespath
 
 ntp_servers:
-  - 192.168.123.1
+  - ntp.tuna.tsinghua.edu.cn
 
 ntp_pool: pool.ntp.org
 
