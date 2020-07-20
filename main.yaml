@@ -1,0 +1,13 @@
+---
+
+- name: rancher_k3s
+  hosts: all
+  roles:
+    - { role: ansible-role-common }
+    - { role: ansible-role-chrony }
+
+- name: rancher_k3s
+  hosts: all
+  tasks:
+  - name: Unconditionally reboot the machine with all defaults
+    reboot:

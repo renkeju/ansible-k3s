@@ -1,0 +1,6 @@
+---
+
+- name: rancher_k3s
+  hosts: k3s
+  roles:
+    - { role: ansible-role-k3s }
